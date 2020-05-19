@@ -15,7 +15,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ffdc-corporate-banking-sample/ui/shared": [
+        "libs/ui/shared/src/index.ts"
+      ],
+      "@ffdc-corporate-banking-sample/ui/auth": ["libs/ui/auth/src/index.ts"],
+      "@ffdc-corporate-banking-sample/ui/features/home": [
+        "libs/ui/features/home/src/index.ts"
+      ],
+      "@ffdc-corporate-banking-sample/ui/services/corporate-accounts": [
+        "libs/ui/services/corporate-accounts/src/index.ts"
+      ],
+      "@ffdc-corporate-banking-sample/ui/core": ["libs/ui/core/src/index.ts"],
+      "@ffdc-corporate-banking-sample/ui/cdk/statement": [
+        "libs/ui/cdk/statement/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

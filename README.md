@@ -1,84 +1,59 @@
-# FfdcCorporateBankingSample
+# FFDC Sample Corporate Banking Web App
 
-This project was generated using [Nx](https://nx.dev).
+This repository contains a sample application using [Finastra's Design System](https://github.com/fusionfabric/finastra-design-system) for the front-end and [FusionFabric.cloud](https://developer.fusionfabric.cloud) for backend.
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
+## Installation
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+1. Register FFDC application
 
-## Quick Start & Documentation
+You need to register an application on [FusionFabric.cloud Developer Portal](https://developer.fusionfabric.cloud) and select [Account and Balances - B2C](https://developer.fusionfabric.cloud/solution/real-time-account-balances-and-statement) API.
 
-[Nx Documentation](https://nx.dev/angular)
+2. Setup environment variables
 
-[10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
+Rename `.env.template` to `.env` and setup `OIDC_CLIENT_ID` and `OIDC_CLIENT_SECRET` from the application created at step 1.
 
-[Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
-
-## Adding capabilities to your workspace
-
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
-
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are some plugins which you can add to your workspace:
-
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
-
-## Generate an application
-
-Run `ng g @nrwl/angular:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
-
-When using Nx, you can create multiple applications and libraries in the same workspace.
-
-## Generate a library
-
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are sharable across libraries and applications. They can be imported from `@ffdc-corporate-banking-sample/mylib`.
-
-## Development server
-
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
+3. Run `npm i`
 
 ## Build
 
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This application contains two applications :
 
-## Running unit tests
+- Angular Application
+- NestJs application
 
-Run `ng test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+So you need to run two commands :
 
-Run `nx affected:test` to execute the unit tests affected by a change.
+```
+npm run dev           # client build in watch mode
+npm run start:server  # server build in watch mode
+```
 
-## Running end-to-end tests
+Go to http://localhost:3000 and enjoy your demo application 😊
 
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+> To build for production, use `npm run build:prod`, which will build both the client and server !
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+## Credentials
 
-## Understand your workspace
+For testing purpose, you can login with one of the following credentials:
 
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
+| User        | Password |
+| :---------- | :------- |
+| `ffdcuser1` | `123456` |
+| `ffdcuser2` | `123456` |
 
-## Further help
+## Environement variables
 
-Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
+| Variable         | Default value                                     |
+| :--------------- | :------------------------------------------------ |
+| `OIDC_CLIENT_ID` |                                                   |
+| `CLIENT_SECRET`  |                                                   |
+| `SESSION_SECRET` | Generated uiid                                    |
+| `FFDC`           | `https://api.fusionfabric.cloud`                  |
+| `PORT`           | `3000`                                            |
+| `OIDC_ISSUER`    | `https://api.fusionfabric.cloud/login/v1/sandbox` |
+| `OIDC_SCOPES`    | `openid profile`                                  |
+| `OIDC_ORIGIN`    | `http://localhost:3000`                           |
+
+## License
+
+These sample applications are released under the MIT License. See [LICENSE](./LICENSE) for details.
