@@ -48,7 +48,7 @@
     "@ffdc/api_corporate-accounts": "^0.1.0",
     "@ffdc/nestjs-oidc": "^0.4.0",
     "@ffdc/nestjs-proxy": "^0.1.0",
-    "@ffdc/uxg-angular-components": "^0.19.2",
+    "@ffdc/uxg-angular-components": "^0.19.3",
     "@golevelup/nestjs-modules": "^0.4.1",
     "@nestjs/common": "^7.0.0",
     "@nestjs/config": "^0.4.2",

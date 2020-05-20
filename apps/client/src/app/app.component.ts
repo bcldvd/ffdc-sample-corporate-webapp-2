@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class AppComponent {
   appName = 'Corporate Account Services';
 
-  demoAppList = routes;
+  navigationNodes = routes;
 
   constructor(public auth: AuthService, private router: Router) {}
 
