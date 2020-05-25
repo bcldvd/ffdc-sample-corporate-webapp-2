@@ -18,14 +18,14 @@ import { ServiceStaticConfigService } from './configs/serve-startic-config.servi
       isGlobal: true,
       ignoreEnvFile: process.env.NODE_ENV === 'production',
     }),
-    OidcModule.registerAsync({
+    OidcModule.forRootAsync({
       imports: [ConfigModule],
       useClass: OidcConfigService,
     }),
     ServeStaticModule.forRootAsync({
       useClass: ServiceStaticConfigService,
     }),
-    ProxyModule.forRootAsync(ProxyModule, {
+    ProxyModule.forRootAsync({
       useClass: ProxyConfigService,
       imports: [ConfigModule],
     }),
