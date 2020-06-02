@@ -1,10 +1,24 @@
-# FFDC Sample Corporate Banking Web App
+<!-- [![Repo license](https://img.shields.io/github/license/fusionfabric/ffdc-sample-corporate-webapp)](./LICENSE.md)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-green)
+[![Twitter](https://img.shields.io/twitter/follow/FinastraFS.svg?style=social&label=Follow)](https://twitter.com/FinastraFS)
+ -->
+<!-- # FFDC Sample Corporate Banking Web App -->
 
-This repository contains a sample application using [Finastra's Design System](https://github.com/fusionfabric/finastra-design-system) for the front-end and [FusionFabric.cloud](https://developer.fusionfabric.cloud) for backend.
+# ![FFDC Sample app](./media/ffdc-sample-app-header.png)
+
+> ### Sample _Corporate Banking application_ using [Finastra's Design System](https://github.com/fusionfabric/finastra-design-system) for the front-end and [FusionFabric.cloud](https://developer.fusionfabric.cloud) for backend.
+
+<p align="center">
+  <a href="./LICENSE.md"><img src="https://img.shields.io/github/license/fusionfabric/ffdc-sample-corporate-webapp" alt="Repo License" /></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-green" alt="PRs welcome"/>
+  <a href="https://twitter.com/FinastraFS"><img src="https://img.shields.io/twitter/follow/FinastraFS.svg?style=social&label=Follow"></a>
+</p>
+
+<br/>
 
 ## Installation
 
-1. Register FFDC application
+1. [Register FFDC application](https://medium.com/finastra-fintechs-devs/create-an-application-on-finastras-developer-portal-d90ef266cafb)
 
 You need to register an application on [FusionFabric.cloud Developer Portal](https://developer.fusionfabric.cloud) and select [Account and Balances - B2C](https://developer.fusionfabric.cloud/solution/real-time-account-balances-and-statement) API.
 
@@ -57,3 +71,7 @@ For testing purpose, you can login with one of the following credentials:
 ## License
 
 These sample applications are released under the MIT License. See [LICENSE](./LICENSE) for details.
+
+<br />
+
+[![Brought to you by Finastra](./media/spread-knowledge-readme-banner.png)](https://www.finastra.com/)
