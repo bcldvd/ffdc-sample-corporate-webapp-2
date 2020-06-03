@@ -9,7 +9,7 @@
 > ### Sample _Corporate Banking application_ using [Finastra's Design System](https://github.com/fusionfabric/finastra-design-system) for the front-end and [FusionFabric.cloud](https://developer.fusionfabric.cloud) for backend.
 
 <p align="center">
-  <a href="https://heroku.com/deploy">
+  <a href="https://heroku.com/deploy?template=https://raw.githubusercontent.com/bcldvd/ffdc-sample-corporate-webapp-2/master/app.json"  target="_blank">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
   <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbcldvd%2Fffdc-sample-corporate-webapp-2%2Fmaster%2Fazuredeploy.json" target="_blank">
