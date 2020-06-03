@@ -1,8 +1,8 @@
 {
     "env": {
         "FFDC": "https://api.fusionfabric.cloud",
-        "OIDC_CLIENT_ID": "@my-secret-name",
-        "OIDC_CLIENT_SECRET": "@my-secret-name",
+        "OIDC_CLIENT_ID": "@client-id",
+        "OIDC_CLIENT_SECRET": "@client-secret",
         "OIDC_ISSUER": "https://api.fusionfabric.cloud/login/v1/sandbox"
     }
 }
