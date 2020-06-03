@@ -5,6 +5,12 @@
         "OIDC_CLIENT_SECRET": "@client-secret",
         "OIDC_ISSUER": "https://api.fusionfabric.cloud/login/v1/sandbox"
     },
+    "builds": [
+        {
+            "src": "apps/server/main.js",
+            "use": "@now/node"
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
