@@ -4,5 +4,11 @@
         "OIDC_CLIENT_ID": "@client-id",
         "OIDC_CLIENT_SECRET": "@client-secret",
         "OIDC_ISSUER": "https://api.fusionfabric.cloud/login/v1/sandbox"
-    }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "dist/apps/server/main.js"
+        }
+    ]
 }
