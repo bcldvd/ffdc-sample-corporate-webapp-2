@@ -10,7 +10,8 @@
             "description": "Client Secret"
         },
         "OIDC_ORIGIN": {
-            "description": "URL of the deployed application"
+            "description": "URL of the deployed application",
+            "required": false
         },
         "OIDC_ISSUER": {
             "description": "Issuer",
