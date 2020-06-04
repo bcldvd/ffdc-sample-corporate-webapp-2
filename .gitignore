@@ -2,6 +2,7 @@
 
 # compiled output
 # /dist --> for azure deployment
+/dist
 /tmp
 /out-tsc
 

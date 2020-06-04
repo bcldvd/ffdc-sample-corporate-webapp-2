@@ -11,7 +11,7 @@
         },
         "OIDC_ORIGIN": {
             "description": "URL of the deployed application",
-            "required": false
+            "value": "https://REPLACE_WITH_APP_NAME.herokuapp.com"
         },
         "OIDC_ISSUER": {
             "description": "Issuer",

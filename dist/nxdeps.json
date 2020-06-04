@@ -567,7 +567,8 @@
                 "aot": true,
                 "assets": [
                   "apps/client/src/favicon.ico",
-                  "apps/client/src/assets"
+                  "apps/client/src/assets",
+                  "apps/client/src/manifest.webmanifest"
                 ],
                 "styles": [
                   "apps/client/src/styles.scss"
@@ -601,7 +602,9 @@
                       "maximumWarning": "6kb",
                       "maximumError": "10kb"
                     }
-                  ]
+                  ],
+                  "serviceWorker": true,
+                  "ngswConfigPath": "apps/client/ngsw-config.json"
                 }
               }
             },
@@ -659,6 +662,11 @@
               "mtime": 1589890319847.6917
             },
             {
+              "file": "apps/client/ngsw-config.json",
+              "ext": ".json",
+              "mtime": 1591276710770.4072
+            },
+            {
               "file": "apps/client/src/app/app-init/app-init.component.ts",
               "ext": ".ts",
               "mtime": 1589899040362.0972
@@ -666,7 +674,7 @@
             {
               "file": "apps/client/src/app/app-init/app-init.module.ts",
               "ext": ".ts",
-              "mtime": 1589898676160.1904
+              "mtime": 1591276710775.86
             },
             {
               "file": "apps/client/src/app/app-init/app-init.routing.module.ts",
@@ -714,6 +722,46 @@
               "mtime": 1589890319845.9514
             },
             {
+              "file": "apps/client/src/assets/icons/icon-128x128.png",
+              "ext": ".png",
+              "mtime": 1591276710771.1084
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-144x144.png",
+              "ext": ".png",
+              "mtime": 1591276710771.3252
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-152x152.png",
+              "ext": ".png",
+              "mtime": 1591276710771.532
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-192x192.png",
+              "ext": ".png",
+              "mtime": 1591276710771.7212
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-384x384.png",
+              "ext": ".png",
+              "mtime": 1591276710771.9097
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-512x512.png",
+              "ext": ".png",
+              "mtime": 1591276710772.1008
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-72x72.png",
+              "ext": ".png",
+              "mtime": 1591276710772.347
+            },
+            {
+              "file": "apps/client/src/assets/icons/icon-96x96.png",
+              "ext": ".png",
+              "mtime": 1591276710772.557
+            },
+            {
               "file": "apps/client/src/assets/wave-bottom.svg",
               "ext": ".svg",
               "mtime": 1589905714228.8345
@@ -736,12 +784,17 @@
             {
               "file": "apps/client/src/index.html",
               "ext": ".html",
-              "mtime": 1589900485298.9338
+              "mtime": 1591276710776.9036
             },
             {
               "file": "apps/client/src/main.ts",
               "ext": ".ts",
               "mtime": 1589900448805.3613
+            },
+            {
+              "file": "apps/client/src/manifest.webmanifest",
+              "ext": ".webmanifest",
+              "mtime": 1591276771545.5776
             },
             {
               "file": "apps/client/src/polyfills.ts",
@@ -996,6 +1049,14 @@
       "@angular/router": {
         "type": "npm",
         "name": "@angular/router",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/service-worker": {
+        "type": "npm",
+        "name": "@angular/service-worker",
         "data": {
           "version": "~9.0.6",
           "files": []
@@ -1610,6 +1671,11 @@
         {
           "type": "static",
           "source": "client",
+          "target": "@angular/service-worker"
+        },
+        {
+          "type": "static",
+          "source": "client",
           "target": "@angular/router"
         },
         {
@@ -1715,6 +1781,7 @@
       "@angular/platform-browser": [],
       "@angular/platform-browser-dynamic": [],
       "@angular/router": [],
+      "@angular/service-worker": [],
       "@ffdc/api_corporate-accounts": [],
       "@ffdc/nestjs-oidc": [],
       "@ffdc/nestjs-proxy": [],
@@ -2119,6 +2186,11 @@
         "mtime": 1589890319847.6917
       },
       {
+        "file": "apps/client/ngsw-config.json",
+        "ext": ".json",
+        "mtime": 1591276710770.4072
+      },
+      {
         "file": "apps/client/src/app/app-init/app-init.component.ts",
         "ext": ".ts",
         "mtime": 1589899040362.0972
@@ -2126,7 +2198,7 @@
       {
         "file": "apps/client/src/app/app-init/app-init.module.ts",
         "ext": ".ts",
-        "mtime": 1589898676160.1904
+        "mtime": 1591276710775.86
       },
       {
         "file": "apps/client/src/app/app-init/app-init.routing.module.ts",
@@ -2174,6 +2246,46 @@
         "mtime": 1589890319845.9514
       },
       {
+        "file": "apps/client/src/assets/icons/icon-128x128.png",
+        "ext": ".png",
+        "mtime": 1591276710771.1084
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-144x144.png",
+        "ext": ".png",
+        "mtime": 1591276710771.3252
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-152x152.png",
+        "ext": ".png",
+        "mtime": 1591276710771.532
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-192x192.png",
+        "ext": ".png",
+        "mtime": 1591276710771.7212
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-384x384.png",
+        "ext": ".png",
+        "mtime": 1591276710771.9097
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-512x512.png",
+        "ext": ".png",
+        "mtime": 1591276710772.1008
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-72x72.png",
+        "ext": ".png",
+        "mtime": 1591276710772.347
+      },
+      {
+        "file": "apps/client/src/assets/icons/icon-96x96.png",
+        "ext": ".png",
+        "mtime": 1591276710772.557
+      },
+      {
         "file": "apps/client/src/assets/wave-bottom.svg",
         "ext": ".svg",
         "mtime": 1589905714228.8345
@@ -2196,12 +2308,17 @@
       {
         "file": "apps/client/src/index.html",
         "ext": ".html",
-        "mtime": 1589900485298.9338
+        "mtime": 1591276710776.9036
       },
       {
         "file": "apps/client/src/main.ts",
         "ext": ".ts",
         "mtime": 1589900448805.3613
+      },
+      {
+        "file": "apps/client/src/manifest.webmanifest",
+        "ext": ".webmanifest",
+        "mtime": 1591276771545.5776
       },
       {
         "file": "apps/client/src/polyfills.ts",
