@@ -112,8 +112,7 @@ fi
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd "$DEPLOYMENT_TARGET"
   echo "Running $NPM_CMD install"
-  eval $NPM_CMD install
-  eval $NPM_CMD run build:prod
+  eval $NPM_CMD install --only=prod
   exitWithMessageOnError "npm failed"
   cd - > /dev/null
 fi

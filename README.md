@@ -15,9 +15,9 @@
   <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbcldvd%2Fffdc-sample-corporate-webapp-2%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="https://aka.ms/deploytoazurebutton"/>
   </a>
-  <a href="https://vercel.com/new/project?template=https://github.com/bcldvd/ffdc-sample-corporate-webapp-2" target="_blank">
+  <!-- <a href="https://vercel.com/new/project?template=https://github.com/bcldvd/ffdc-sample-corporate-webapp-2" target="_blank">
     <img src="https://vercel.com/button" alt="Deploy with Vercel">
-  </a>
+  </a> -->
 </p>
 
 <p align="center">
