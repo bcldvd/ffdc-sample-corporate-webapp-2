@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "nx": "nx",
-    "start": "npm run start:prod",
+    "start": "node dist/apps/server/main.js",
     "start:server": "nx serve server",
     "start:prod": "node dist/apps/server/main.js",
     "start:prod:local": "node -r dotenv/config dist/apps/server/main.js",
