@@ -32,6 +32,9 @@ origin     : ${origin}`);
         resource: this.configService.get('OIDC_RESOURCE'),
       },
       origin,
+      defaultHttpOptions: {
+        timeout: 20000,
+      },
     };
   }
 

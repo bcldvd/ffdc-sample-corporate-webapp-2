@@ -48,7 +48,7 @@
     "@angular/router": "~9.0.6",
     "@angular/service-worker": "~9.0.6",
     "@ffdc/api_corporate-accounts": "^0.1.1",
-    "@ffdc/nestjs-oidc": "^0.5.0",
+    "@ffdc/nestjs-oidc": "^0.6.0",
     "@ffdc/nestjs-proxy": "^0.2.0",
     "@ffdc/uxg-angular-components": "^0.19.3",
     "@nestjs/common": "^7.0.0",
