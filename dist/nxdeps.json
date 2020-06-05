@@ -37,52 +37,52 @@
             {
               "file": "libs/ui/services/corporate-accounts/README.md",
               "ext": ".md",
-              "mtime": 1589900908350.4038
+              "mtime": 1591297908914.0542
             },
             {
               "file": "libs/ui/services/corporate-accounts/jest.config.js",
               "ext": ".js",
-              "mtime": 1589900908351.6436
+              "mtime": 1591297908914.2063
             },
             {
               "file": "libs/ui/services/corporate-accounts/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589901753929.8894
+              "mtime": 1591297908914.456
             },
             {
               "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.gql.service.ts",
               "ext": ".ts",
-              "mtime": 1589904101017.1523
+              "mtime": 1591297908914.8923
             },
             {
               "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.module.ts",
               "ext": ".ts",
-              "mtime": 1589902815940.3843
+              "mtime": 1591297908915.0498
             },
             {
               "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.service.ts",
               "ext": ".ts",
-              "mtime": 1589902673304.2307
+              "mtime": 1591297908915.283
             },
             {
               "file": "libs/ui/services/corporate-accounts/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589900908350.6726
+              "mtime": 1591297908915.4802
             },
             {
               "file": "libs/ui/services/corporate-accounts/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589900908350.8953
+              "mtime": 1591297908915.6392
             },
             {
               "file": "libs/ui/services/corporate-accounts/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589900908351.8687
+              "mtime": 1591297908916.064
             },
             {
               "file": "libs/ui/services/corporate-accounts/tslint.json",
               "ext": ".json",
-              "mtime": 1589900908350.1152
+              "mtime": 1591297908916.199
             }
           ]
         }
@@ -123,67 +123,67 @@
             {
               "file": "libs/ui/features/home/README.md",
               "ext": ".md",
-              "mtime": 1589900713676.9917
+              "mtime": 1591297908910.9248
             },
             {
               "file": "libs/ui/features/home/jest.config.js",
               "ext": ".js",
-              "mtime": 1589900713678.376
+              "mtime": 1591297908911.0774
             },
             {
               "file": "libs/ui/features/home/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589900787206.2788
+              "mtime": 1591297908911.6414
             },
             {
               "file": "libs/ui/features/home/src/lib/_home.component.theme.scss",
               "ext": ".scss",
-              "mtime": 1589901541227.6519
+              "mtime": 1591297908911.8806
             },
             {
               "file": "libs/ui/features/home/src/lib/home.component.html",
               "ext": ".html",
-              "mtime": 1589903899757.2034
+              "mtime": 1591297908912.1006
             },
             {
               "file": "libs/ui/features/home/src/lib/home.component.scss",
               "ext": ".scss",
-              "mtime": 1589901541227.762
+              "mtime": 1591297908912.2512
             },
             {
               "file": "libs/ui/features/home/src/lib/home.component.spec.ts",
               "ext": ".ts",
-              "mtime": 1589901541227.8123
+              "mtime": 1591297908912.4058
             },
             {
               "file": "libs/ui/features/home/src/lib/home.component.ts",
               "ext": ".ts",
-              "mtime": 1589903904858.0454
+              "mtime": 1591297908912.5554
             },
             {
               "file": "libs/ui/features/home/src/lib/home.module.ts",
               "ext": ".ts",
-              "mtime": 1589903491758.9622
+              "mtime": 1591297908912.7285
             },
             {
               "file": "libs/ui/features/home/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589900713677.2488
+              "mtime": 1591297908912.8677
             },
             {
               "file": "libs/ui/features/home/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589900713677.471
+              "mtime": 1591297908913.0396
             },
             {
               "file": "libs/ui/features/home/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589900713678.661
+              "mtime": 1591297908913.1877
             },
             {
               "file": "libs/ui/features/home/tslint.json",
               "ext": ".json",
-              "mtime": 1589900713676.7046
+              "mtime": 1591297908913.7307
             }
           ]
         }
@@ -224,67 +224,67 @@
             {
               "file": "libs/ui/cdk/statement/README.md",
               "ext": ".md",
-              "mtime": 1589901962849.1655
+              "mtime": 1591297908905.098
             },
             {
               "file": "libs/ui/cdk/statement/jest.config.js",
               "ext": ".js",
-              "mtime": 1589901962850.477
+              "mtime": 1591297908905.3308
             },
             {
               "file": "libs/ui/cdk/statement/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589902134313.8281
+              "mtime": 1591297908905.6255
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.component.html",
               "ext": ".html",
-              "mtime": 1589901969043.771
+              "mtime": 1591297908905.8755
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.component.scss",
               "ext": ".scss",
-              "mtime": 1589901969044.127
+              "mtime": 1591297908906.039
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.component.spec.ts",
               "ext": ".ts",
-              "mtime": 1589901969043.881
+              "mtime": 1591297908906.2031
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.component.ts",
               "ext": ".ts",
-              "mtime": 1589903596698.2598
+              "mtime": 1591297908906.5828
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.module.ts",
               "ext": ".ts",
-              "mtime": 1589903560090.5803
+              "mtime": 1591297908907.1038
             },
             {
               "file": "libs/ui/cdk/statement/src/lib/statement.skeleton.html",
               "ext": ".html",
-              "mtime": 1589901969043.8237
+              "mtime": 1591297908907.2551
             },
             {
               "file": "libs/ui/cdk/statement/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589901962849.394
+              "mtime": 1591297908907.6448
             },
             {
               "file": "libs/ui/cdk/statement/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589901962849.5896
+              "mtime": 1591297908907.7922
             },
             {
               "file": "libs/ui/cdk/statement/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589901962850.7253
+              "mtime": 1591297908907.9453
             },
             {
               "file": "libs/ui/cdk/statement/tslint.json",
               "ext": ".json",
-              "mtime": 1589901962848.904
+              "mtime": 1591297908908.0903
             }
           ]
         }
@@ -325,52 +325,52 @@
             {
               "file": "libs/ui/shared/README.md",
               "ext": ".md",
-              "mtime": 1589898314944.7874
+              "mtime": 1591297908916.415
             },
             {
               "file": "libs/ui/shared/jest.config.js",
               "ext": ".js",
-              "mtime": 1589898314946.3188
+              "mtime": 1591297908916.5876
             },
             {
               "file": "libs/ui/shared/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589898419991.9011
+              "mtime": 1591297908916.8599
             },
             {
               "file": "libs/ui/shared/src/lib/fds.module.ts",
               "ext": ".ts",
-              "mtime": 1589902081656.3652
+              "mtime": 1591297908917.0916
             },
             {
               "file": "libs/ui/shared/src/lib/material.module.ts",
               "ext": ".ts",
-              "mtime": 1589898407287.395
+              "mtime": 1591297908917.241
             },
             {
               "file": "libs/ui/shared/src/lib/shared.module.ts",
               "ext": ".ts",
-              "mtime": 1589898426841.606
+              "mtime": 1591297908917.7046
             },
             {
               "file": "libs/ui/shared/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589898314945.0203
+              "mtime": 1591297908917.8564
             },
             {
               "file": "libs/ui/shared/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589898314945.26
+              "mtime": 1591297908918.5479
             },
             {
               "file": "libs/ui/shared/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589898314946.563
+              "mtime": 1591297908918.682
             },
             {
               "file": "libs/ui/shared/tslint.json",
               "ext": ".json",
-              "mtime": 1589898314944.3901
+              "mtime": 1591297908918.8215
             }
           ]
         }
@@ -411,52 +411,52 @@
             {
               "file": "libs/ui/auth/README.md",
               "ext": ".md",
-              "mtime": 1589898620499.4407
+              "mtime": 1591297908902.2493
             },
             {
               "file": "libs/ui/auth/jest.config.js",
               "ext": ".js",
-              "mtime": 1589898620500.633
+              "mtime": 1591297908902.4358
             },
             {
               "file": "libs/ui/auth/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589898708685.46
+              "mtime": 1591297908902.6895
             },
             {
               "file": "libs/ui/auth/src/lib/auth.module.ts",
               "ext": ".ts",
-              "mtime": 1589898639080.8816
+              "mtime": 1591297908902.9412
             },
             {
               "file": "libs/ui/auth/src/lib/auth.service.ts",
               "ext": ".ts",
-              "mtime": 1589898730096.6328
+              "mtime": 1591297908903.6575
             },
             {
               "file": "libs/ui/auth/src/lib/authenticated-guard.service.ts",
               "ext": ".ts",
-              "mtime": 1589898639081.3086
+              "mtime": 1591297908903.8413
             },
             {
               "file": "libs/ui/auth/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589898620499.679
+              "mtime": 1591297908904.028
             },
             {
               "file": "libs/ui/auth/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589898620499.8845
+              "mtime": 1591297908904.2207
             },
             {
               "file": "libs/ui/auth/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589898620500.8503
+              "mtime": 1591297908904.3755
             },
             {
               "file": "libs/ui/auth/tslint.json",
               "ext": ".json",
-              "mtime": 1589898620499.1807
+              "mtime": 1591297908904.532
             }
           ]
         }
@@ -497,47 +497,47 @@
             {
               "file": "libs/ui/core/README.md",
               "ext": ".md",
-              "mtime": 1589901095379.1746
+              "mtime": 1591297908908.3567
             },
             {
               "file": "libs/ui/core/jest.config.js",
               "ext": ".js",
-              "mtime": 1589901095380.5115
+              "mtime": 1591297908908.526
             },
             {
               "file": "libs/ui/core/src/index.ts",
               "ext": ".ts",
-              "mtime": 1589901377090.9143
+              "mtime": 1591297908908.9797
             },
             {
               "file": "libs/ui/core/src/lib/constants.ts",
               "ext": ".ts",
-              "mtime": 1589901292882.765
+              "mtime": 1591297908909.541
             },
             {
               "file": "libs/ui/core/src/lib/core-module.ts",
               "ext": ".ts",
-              "mtime": 1589901367324.6882
+              "mtime": 1591297908909.6921
             },
             {
               "file": "libs/ui/core/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589901095379.4343
+              "mtime": 1591297908910.0857
             },
             {
               "file": "libs/ui/core/tsconfig.lib.json",
               "ext": ".json",
-              "mtime": 1589901095379.6816
+              "mtime": 1591297908910.2966
             },
             {
               "file": "libs/ui/core/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589901095380.7434
+              "mtime": 1591297908910.4407
             },
             {
               "file": "libs/ui/core/tslint.json",
               "ext": ".json",
-              "mtime": 1589901095378.9048
+              "mtime": 1591297908910.5823
             }
           ]
         }
@@ -654,182 +654,192 @@
             {
               "file": "apps/client/browserslist",
               "ext": "",
-              "mtime": 1589890319844.6218
+              "mtime": 1591297908880.449
             },
             {
               "file": "apps/client/jest.config.js",
               "ext": ".js",
-              "mtime": 1589890319847.6917
+              "mtime": 1591297908880.6157
             },
             {
               "file": "apps/client/ngsw-config.json",
               "ext": ".json",
-              "mtime": 1591276710770.4072
+              "mtime": 1591297908880.7961
             },
             {
               "file": "apps/client/src/app/app-init/app-init.component.ts",
               "ext": ".ts",
-              "mtime": 1589899040362.0972
+              "mtime": 1591297908882.1074
             },
             {
               "file": "apps/client/src/app/app-init/app-init.module.ts",
               "ext": ".ts",
-              "mtime": 1591276710775.86
+              "mtime": 1591297908882.3289
             },
             {
               "file": "apps/client/src/app/app-init/app-init.routing.module.ts",
               "ext": ".ts",
-              "mtime": 1589898753691.038
+              "mtime": 1591297908882.5154
             },
             {
               "file": "apps/client/src/app/app-routing.module.ts",
               "ext": ".ts",
-              "mtime": 1589898156679.7053
+              "mtime": 1591297908882.7078
             },
             {
               "file": "apps/client/src/app/app.component.html",
               "ext": ".html",
-              "mtime": 1589979266404.1663
+              "mtime": 1591297908882.9456
             },
             {
               "file": "apps/client/src/app/app.component.scss",
               "ext": ".scss",
-              "mtime": 1589898156680.3162
+              "mtime": 1591297908883.1238
             },
             {
               "file": "apps/client/src/app/app.component.ts",
               "ext": ".ts",
-              "mtime": 1589979262690.041
+              "mtime": 1591297908883.6226
             },
             {
               "file": "apps/client/src/app/app.module.ts",
               "ext": ".ts",
-              "mtime": 1589901493393.196
+              "mtime": 1591297908883.8079
             },
             {
               "file": "apps/client/src/app/constants.ts",
               "ext": ".ts",
-              "mtime": 1589902301651.8792
+              "mtime": 1591297908884.2498
             },
             {
               "file": "apps/client/src/app/graphql.module.ts",
               "ext": ".ts",
-              "mtime": 1589898156679.953
+              "mtime": 1591297908884.4526
             },
             {
               "file": "apps/client/src/assets/.gitkeep",
               "ext": "",
-              "mtime": 1589890319845.9514
+              "mtime": 1591297908885.0767
+            },
+            {
+              "file": "apps/client/src/assets/build-illustration.png",
+              "ext": ".png",
+              "mtime": 1591297908886.589
             },
             {
               "file": "apps/client/src/assets/icons/icon-128x128.png",
               "ext": ".png",
-              "mtime": 1591276710771.1084
+              "mtime": 1591297908887.2249
             },
             {
               "file": "apps/client/src/assets/icons/icon-144x144.png",
               "ext": ".png",
-              "mtime": 1591276710771.3252
+              "mtime": 1591297908887.4094
             },
             {
               "file": "apps/client/src/assets/icons/icon-152x152.png",
               "ext": ".png",
-              "mtime": 1591276710771.532
+              "mtime": 1591297908887.5876
             },
             {
               "file": "apps/client/src/assets/icons/icon-192x192.png",
               "ext": ".png",
-              "mtime": 1591276710771.7212
+              "mtime": 1591297908887.7856
             },
             {
               "file": "apps/client/src/assets/icons/icon-384x384.png",
               "ext": ".png",
-              "mtime": 1591276710771.9097
+              "mtime": 1591297908887.983
             },
             {
               "file": "apps/client/src/assets/icons/icon-512x512.png",
               "ext": ".png",
-              "mtime": 1591276710772.1008
+              "mtime": 1591297908888.294
             },
             {
               "file": "apps/client/src/assets/icons/icon-72x72.png",
               "ext": ".png",
-              "mtime": 1591276710772.347
+              "mtime": 1591297908888.4746
             },
             {
               "file": "apps/client/src/assets/icons/icon-96x96.png",
               "ext": ".png",
-              "mtime": 1591276710772.557
+              "mtime": 1591297908888.883
+            },
+            {
+              "file": "apps/client/src/assets/main-logo.png",
+              "ext": ".png",
+              "mtime": 1591297908889.4475
             },
             {
               "file": "apps/client/src/assets/wave-bottom.svg",
               "ext": ".svg",
-              "mtime": 1589905714228.8345
+              "mtime": 1591297908889.6514
             },
             {
               "file": "apps/client/src/environments/environment.prod.ts",
               "ext": ".ts",
-              "mtime": 1589890319846.2935
+              "mtime": 1591297908889.9714
             },
             {
               "file": "apps/client/src/environments/environment.ts",
               "ext": ".ts",
-              "mtime": 1589890319846.5015
+              "mtime": 1591297908890.633
             },
             {
               "file": "apps/client/src/favicon.ico",
               "ext": ".ico",
-              "mtime": 1589903377487.2698
+              "mtime": 1591297908891.2732
             },
             {
               "file": "apps/client/src/index.html",
               "ext": ".html",
-              "mtime": 1591276710776.9036
+              "mtime": 1591297908891.4917
             },
             {
               "file": "apps/client/src/main.ts",
               "ext": ".ts",
-              "mtime": 1589900448805.3613
+              "mtime": 1591297908891.6777
             },
             {
               "file": "apps/client/src/manifest.webmanifest",
               "ext": ".webmanifest",
-              "mtime": 1591276771545.5776
+              "mtime": 1591297908891.8972
             },
             {
               "file": "apps/client/src/polyfills.ts",
               "ext": ".ts",
-              "mtime": 1589890319845.5662
+              "mtime": 1591297908892.091
             },
             {
               "file": "apps/client/src/styles.scss",
               "ext": ".scss",
-              "mtime": 1589903287871.0562
+              "mtime": 1591297908892.799
             },
             {
               "file": "apps/client/src/test-setup.ts",
               "ext": ".ts",
-              "mtime": 1589890319848.041
+              "mtime": 1591297908892.9744
             },
             {
               "file": "apps/client/tsconfig.app.json",
               "ext": ".json",
-              "mtime": 1589890319844.8076
+              "mtime": 1591297908893.155
             },
             {
               "file": "apps/client/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589890319844.124
+              "mtime": 1591297908893.6675
             },
             {
               "file": "apps/client/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589890319847.8684
+              "mtime": 1591297908893.8555
             },
             {
               "file": "apps/client/tslint.json",
               "ext": ".json",
-              "mtime": 1589890319844.9932
+              "mtime": 1591297908894.0247
             }
           ]
         }
@@ -899,167 +909,79 @@
             {
               "file": "apps/server/jest.config.js",
               "ext": ".js",
-              "mtime": 1589890526782.5742
+              "mtime": 1591297908894.2952
             },
             {
               "file": "apps/server/src/app.controller.spec.ts",
               "ext": ".ts",
-              "mtime": 1589894136962.2756
+              "mtime": 1591297908894.6157
             },
             {
               "file": "apps/server/src/app.controller.ts",
               "ext": ".ts",
-              "mtime": 1589894136962.3506
+              "mtime": 1591297908894.8413
             },
             {
               "file": "apps/server/src/app.module.ts",
               "ext": ".ts",
-              "mtime": 1590394789256.7053
+              "mtime": 1591297908895.014
             },
             {
               "file": "apps/server/src/app.service.ts",
               "ext": ".ts",
-              "mtime": 1589894136962.445
+              "mtime": 1591297908895.1904
             },
             {
               "file": "apps/server/src/configs/graphql-config.service.ts",
               "ext": ".ts",
-              "mtime": 1589894137037.6052
+              "mtime": 1591338525941.2917
             },
             {
               "file": "apps/server/src/configs/oidc-config.service.ts",
               "ext": ".ts",
-              "mtime": 1591201465342.1526
+              "mtime": 1591297908895.6716
             },
             {
               "file": "apps/server/src/configs/proxy-config.service.ts",
               "ext": ".ts",
-              "mtime": 1589894137043.8098
+              "mtime": 1591297908895.8757
             },
             {
               "file": "apps/server/src/configs/serve-startic-config.service.ts",
               "ext": ".ts",
-              "mtime": 1589894312781.057
+              "mtime": 1591297908896.1008
             },
             {
               "file": "apps/server/src/main.ts",
               "ext": ".ts",
-              "mtime": 1590394775376.1875
+              "mtime": 1591297908896.2834
             },
             {
               "file": "apps/server/src/setup-static.ts",
               "ext": ".ts",
-              "mtime": 1589894136962.552
+              "mtime": 1591297908896.4707
             },
             {
               "file": "apps/server/tsconfig.app.json",
               "ext": ".json",
-              "mtime": 1589890526780.9072
+              "mtime": 1591297908896.6418
             },
             {
               "file": "apps/server/tsconfig.json",
               "ext": ".json",
-              "mtime": 1589890526781.139
+              "mtime": 1591297908896.809
             },
             {
               "file": "apps/server/tsconfig.spec.json",
               "ext": ".json",
-              "mtime": 1589890526782.766
+              "mtime": 1591297908896.9963
             },
             {
               "file": "apps/server/tslint.json",
               "ext": ".json",
-              "mtime": 1589890526780.6401
+              "mtime": 1591297908897.2302
             }
           ]
-        }
-      },
-      "@angular/animations": {
-        "type": "npm",
-        "name": "@angular/animations",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/cdk": {
-        "type": "npm",
-        "name": "@angular/cdk",
-        "data": {
-          "version": "^9.2.1",
-          "files": []
-        }
-      },
-      "@angular/common": {
-        "type": "npm",
-        "name": "@angular/common",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/compiler": {
-        "type": "npm",
-        "name": "@angular/compiler",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/core": {
-        "type": "npm",
-        "name": "@angular/core",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/forms": {
-        "type": "npm",
-        "name": "@angular/forms",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/material": {
-        "type": "npm",
-        "name": "@angular/material",
-        "data": {
-          "version": "^9.2.1",
-          "files": []
-        }
-      },
-      "@angular/platform-browser": {
-        "type": "npm",
-        "name": "@angular/platform-browser",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/platform-browser-dynamic": {
-        "type": "npm",
-        "name": "@angular/platform-browser-dynamic",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/router": {
-        "type": "npm",
-        "name": "@angular/router",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
-        }
-      },
-      "@angular/service-worker": {
-        "type": "npm",
-        "name": "@angular/service-worker",
-        "data": {
-          "version": "~9.0.6",
-          "files": []
         }
       },
       "@ffdc/api_corporate-accounts": {
@@ -1074,7 +996,7 @@
         "type": "npm",
         "name": "@ffdc/nestjs-oidc",
         "data": {
-          "version": "^0.5.0",
+          "version": "^0.6.0",
           "files": []
         }
       },
@@ -1083,14 +1005,6 @@
         "name": "@ffdc/nestjs-proxy",
         "data": {
           "version": "^0.2.0",
-          "files": []
-        }
-      },
-      "@ffdc/uxg-angular-components": {
-        "type": "npm",
-        "name": "@ffdc/uxg-angular-components",
-        "data": {
-          "version": "^0.19.3",
           "files": []
         }
       },
@@ -1139,14 +1053,6 @@
         "name": "@nestjs/serve-static",
         "data": {
           "version": "^2.1.1",
-          "files": []
-        }
-      },
-      "@nrwl/angular": {
-        "type": "npm",
-        "name": "@nrwl/angular",
-        "data": {
-          "version": "9.3.0",
           "files": []
         }
       },
@@ -1238,14 +1144,6 @@
           "files": []
         }
       },
-      "ng-inline-svg": {
-        "type": "npm",
-        "name": "ng-inline-svg",
-        "data": {
-          "version": "^10.0.0",
-          "files": []
-        }
-      },
       "reflect-metadata": {
         "type": "npm",
         "name": "reflect-metadata",
@@ -1262,27 +1160,11 @@
           "files": []
         }
       },
-      "ts-md5": {
-        "type": "npm",
-        "name": "ts-md5",
-        "data": {
-          "version": "^1.2.7",
-          "files": []
-        }
-      },
       "uuid": {
         "type": "npm",
         "name": "uuid",
         "data": {
           "version": "^8.1.0",
-          "files": []
-        }
-      },
-      "zone.js": {
-        "type": "npm",
-        "name": "zone.js",
-        "data": {
-          "version": "^0.10.2",
           "files": []
         }
       },
@@ -1294,9 +1176,41 @@
           "files": []
         }
       },
+      "@angular/animations": {
+        "type": "npm",
+        "name": "@angular/animations",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/cdk": {
+        "type": "npm",
+        "name": "@angular/cdk",
+        "data": {
+          "version": "^9.2.1",
+          "files": []
+        }
+      },
       "@angular/cli": {
         "type": "npm",
         "name": "@angular/cli",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/common": {
+        "type": "npm",
+        "name": "@angular/common",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/compiler": {
+        "type": "npm",
+        "name": "@angular/compiler",
         "data": {
           "version": "~9.0.6",
           "files": []
@@ -1310,11 +1224,99 @@
           "files": []
         }
       },
+      "@angular/core": {
+        "type": "npm",
+        "name": "@angular/core",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/forms": {
+        "type": "npm",
+        "name": "@angular/forms",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
       "@angular/language-service": {
         "type": "npm",
         "name": "@angular/language-service",
         "data": {
           "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/material": {
+        "type": "npm",
+        "name": "@angular/material",
+        "data": {
+          "version": "^9.2.1",
+          "files": []
+        }
+      },
+      "@angular/platform-browser": {
+        "type": "npm",
+        "name": "@angular/platform-browser",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/platform-browser-dynamic": {
+        "type": "npm",
+        "name": "@angular/platform-browser-dynamic",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/router": {
+        "type": "npm",
+        "name": "@angular/router",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@angular/service-worker": {
+        "type": "npm",
+        "name": "@angular/service-worker",
+        "data": {
+          "version": "~9.0.6",
+          "files": []
+        }
+      },
+      "@ffdc/uxg-angular-components": {
+        "type": "npm",
+        "name": "@ffdc/uxg-angular-components",
+        "data": {
+          "version": "^0.19.3",
+          "files": []
+        }
+      },
+      "@nestjs/schematics": {
+        "type": "npm",
+        "name": "@nestjs/schematics",
+        "data": {
+          "version": "^6.7.0",
+          "files": []
+        }
+      },
+      "@nestjs/testing": {
+        "type": "npm",
+        "name": "@nestjs/testing",
+        "data": {
+          "version": "^6.8.3",
+          "files": []
+        }
+      },
+      "@nrwl/angular": {
+        "type": "npm",
+        "name": "@nrwl/angular",
+        "data": {
+          "version": "9.3.0",
           "files": []
         }
       },
@@ -1339,6 +1341,14 @@
         "name": "@nrwl/nest",
         "data": {
           "version": "^9.3.0",
+          "files": []
+        }
+      },
+      "@nrwl/node": {
+        "type": "npm",
+        "name": "@nrwl/node",
+        "data": {
+          "version": "9.3.0",
           "files": []
         }
       },
@@ -1386,7 +1396,7 @@
         "type": "npm",
         "name": "dotenv",
         "data": {
-          "version": "6.2.0",
+          "version": "^6.2.0",
           "files": []
         }
       },
@@ -1414,6 +1424,14 @@
           "files": []
         }
       },
+      "ng-inline-svg": {
+        "type": "npm",
+        "name": "ng-inline-svg",
+        "data": {
+          "version": "^10.0.0",
+          "files": []
+        }
+      },
       "prettier": {
         "type": "npm",
         "name": "prettier",
@@ -1427,6 +1445,14 @@
         "name": "ts-jest",
         "data": {
           "version": "25.2.1",
+          "files": []
+        }
+      },
+      "ts-md5": {
+        "type": "npm",
+        "name": "ts-md5",
+        "data": {
+          "version": "^1.2.7",
           "files": []
         }
       },
@@ -1454,27 +1480,11 @@
           "files": []
         }
       },
-      "@nrwl/node": {
+      "zone.js": {
         "type": "npm",
-        "name": "@nrwl/node",
+        "name": "zone.js",
         "data": {
-          "version": "9.3.0",
-          "files": []
-        }
-      },
-      "@nestjs/schematics": {
-        "type": "npm",
-        "name": "@nestjs/schematics",
-        "data": {
-          "version": "^6.7.0",
-          "files": []
-        }
-      },
-      "@nestjs/testing": {
-        "type": "npm",
-        "name": "@nestjs/testing",
-        "data": {
-          "version": "^6.8.3",
+          "version": "^0.10.2",
           "files": []
         }
       }
@@ -1771,28 +1781,15 @@
           "target": "compression"
         }
       ],
-      "@angular/animations": [],
-      "@angular/cdk": [],
-      "@angular/common": [],
-      "@angular/compiler": [],
-      "@angular/core": [],
-      "@angular/forms": [],
-      "@angular/material": [],
-      "@angular/platform-browser": [],
-      "@angular/platform-browser-dynamic": [],
-      "@angular/router": [],
-      "@angular/service-worker": [],
       "@ffdc/api_corporate-accounts": [],
       "@ffdc/nestjs-oidc": [],
       "@ffdc/nestjs-proxy": [],
-      "@ffdc/uxg-angular-components": [],
       "@nestjs/common": [],
       "@nestjs/config": [],
       "@nestjs/core": [],
       "@nestjs/graphql": [],
       "@nestjs/platform-express": [],
       "@nestjs/serve-static": [],
-      "@nrwl/angular": [],
       "apollo-angular": [],
       "apollo-angular-link-http": [],
       "apollo-cache-inmemory": [],
@@ -1804,19 +1801,32 @@
       "express-session": [],
       "graphql": [],
       "graphql-tag": [],
-      "ng-inline-svg": [],
       "reflect-metadata": [],
       "rxjs": [],
-      "ts-md5": [],
       "uuid": [],
-      "zone.js": [],
       "@angular-devkit/build-angular": [],
+      "@angular/animations": [],
+      "@angular/cdk": [],
       "@angular/cli": [],
+      "@angular/common": [],
+      "@angular/compiler": [],
       "@angular/compiler-cli": [],
+      "@angular/core": [],
+      "@angular/forms": [],
       "@angular/language-service": [],
+      "@angular/material": [],
+      "@angular/platform-browser": [],
+      "@angular/platform-browser-dynamic": [],
+      "@angular/router": [],
+      "@angular/service-worker": [],
+      "@ffdc/uxg-angular-components": [],
+      "@nestjs/schematics": [],
+      "@nestjs/testing": [],
+      "@nrwl/angular": [],
       "@nrwl/cypress": [],
       "@nrwl/jest": [],
       "@nrwl/nest": [],
+      "@nrwl/node": [],
       "@nrwl/workspace": [],
       "@types/jest": [],
       "@types/node": [],
@@ -1826,14 +1836,14 @@
       "eslint": [],
       "jest": [],
       "jest-preset-angular": [],
+      "ng-inline-svg": [],
       "prettier": [],
       "ts-jest": [],
+      "ts-md5": [],
       "ts-node": [],
       "tslint": [],
       "typescript": [],
-      "@nrwl/node": [],
-      "@nestjs/schematics": [],
-      "@nestjs/testing": []
+      "zone.js": []
     }
   },
   "fileMap": {
@@ -1841,596 +1851,606 @@
       {
         "file": "libs/ui/services/corporate-accounts/README.md",
         "ext": ".md",
-        "mtime": 1589900908350.4038
+        "mtime": 1591297908914.0542
       },
       {
         "file": "libs/ui/services/corporate-accounts/jest.config.js",
         "ext": ".js",
-        "mtime": 1589900908351.6436
+        "mtime": 1591297908914.2063
       },
       {
         "file": "libs/ui/services/corporate-accounts/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589901753929.8894
+        "mtime": 1591297908914.456
       },
       {
         "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.gql.service.ts",
         "ext": ".ts",
-        "mtime": 1589904101017.1523
+        "mtime": 1591297908914.8923
       },
       {
         "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.module.ts",
         "ext": ".ts",
-        "mtime": 1589902815940.3843
+        "mtime": 1591297908915.0498
       },
       {
         "file": "libs/ui/services/corporate-accounts/src/lib/corporate-accounts.service.ts",
         "ext": ".ts",
-        "mtime": 1589902673304.2307
+        "mtime": 1591297908915.283
       },
       {
         "file": "libs/ui/services/corporate-accounts/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589900908350.6726
+        "mtime": 1591297908915.4802
       },
       {
         "file": "libs/ui/services/corporate-accounts/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589900908350.8953
+        "mtime": 1591297908915.6392
       },
       {
         "file": "libs/ui/services/corporate-accounts/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589900908351.8687
+        "mtime": 1591297908916.064
       },
       {
         "file": "libs/ui/services/corporate-accounts/tslint.json",
         "ext": ".json",
-        "mtime": 1589900908350.1152
+        "mtime": 1591297908916.199
       }
     ],
     "ui-features-home": [
       {
         "file": "libs/ui/features/home/README.md",
         "ext": ".md",
-        "mtime": 1589900713676.9917
+        "mtime": 1591297908910.9248
       },
       {
         "file": "libs/ui/features/home/jest.config.js",
         "ext": ".js",
-        "mtime": 1589900713678.376
+        "mtime": 1591297908911.0774
       },
       {
         "file": "libs/ui/features/home/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589900787206.2788
+        "mtime": 1591297908911.6414
       },
       {
         "file": "libs/ui/features/home/src/lib/_home.component.theme.scss",
         "ext": ".scss",
-        "mtime": 1589901541227.6519
+        "mtime": 1591297908911.8806
       },
       {
         "file": "libs/ui/features/home/src/lib/home.component.html",
         "ext": ".html",
-        "mtime": 1589903899757.2034
+        "mtime": 1591297908912.1006
       },
       {
         "file": "libs/ui/features/home/src/lib/home.component.scss",
         "ext": ".scss",
-        "mtime": 1589901541227.762
+        "mtime": 1591297908912.2512
       },
       {
         "file": "libs/ui/features/home/src/lib/home.component.spec.ts",
         "ext": ".ts",
-        "mtime": 1589901541227.8123
+        "mtime": 1591297908912.4058
       },
       {
         "file": "libs/ui/features/home/src/lib/home.component.ts",
         "ext": ".ts",
-        "mtime": 1589903904858.0454
+        "mtime": 1591297908912.5554
       },
       {
         "file": "libs/ui/features/home/src/lib/home.module.ts",
         "ext": ".ts",
-        "mtime": 1589903491758.9622
+        "mtime": 1591297908912.7285
       },
       {
         "file": "libs/ui/features/home/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589900713677.2488
+        "mtime": 1591297908912.8677
       },
       {
         "file": "libs/ui/features/home/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589900713677.471
+        "mtime": 1591297908913.0396
       },
       {
         "file": "libs/ui/features/home/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589900713678.661
+        "mtime": 1591297908913.1877
       },
       {
         "file": "libs/ui/features/home/tslint.json",
         "ext": ".json",
-        "mtime": 1589900713676.7046
+        "mtime": 1591297908913.7307
       }
     ],
     "ui-cdk-statement": [
       {
         "file": "libs/ui/cdk/statement/README.md",
         "ext": ".md",
-        "mtime": 1589901962849.1655
+        "mtime": 1591297908905.098
       },
       {
         "file": "libs/ui/cdk/statement/jest.config.js",
         "ext": ".js",
-        "mtime": 1589901962850.477
+        "mtime": 1591297908905.3308
       },
       {
         "file": "libs/ui/cdk/statement/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589902134313.8281
+        "mtime": 1591297908905.6255
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.component.html",
         "ext": ".html",
-        "mtime": 1589901969043.771
+        "mtime": 1591297908905.8755
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.component.scss",
         "ext": ".scss",
-        "mtime": 1589901969044.127
+        "mtime": 1591297908906.039
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.component.spec.ts",
         "ext": ".ts",
-        "mtime": 1589901969043.881
+        "mtime": 1591297908906.2031
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.component.ts",
         "ext": ".ts",
-        "mtime": 1589903596698.2598
+        "mtime": 1591297908906.5828
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.module.ts",
         "ext": ".ts",
-        "mtime": 1589903560090.5803
+        "mtime": 1591297908907.1038
       },
       {
         "file": "libs/ui/cdk/statement/src/lib/statement.skeleton.html",
         "ext": ".html",
-        "mtime": 1589901969043.8237
+        "mtime": 1591297908907.2551
       },
       {
         "file": "libs/ui/cdk/statement/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589901962849.394
+        "mtime": 1591297908907.6448
       },
       {
         "file": "libs/ui/cdk/statement/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589901962849.5896
+        "mtime": 1591297908907.7922
       },
       {
         "file": "libs/ui/cdk/statement/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589901962850.7253
+        "mtime": 1591297908907.9453
       },
       {
         "file": "libs/ui/cdk/statement/tslint.json",
         "ext": ".json",
-        "mtime": 1589901962848.904
+        "mtime": 1591297908908.0903
       }
     ],
     "ui-shared": [
       {
         "file": "libs/ui/shared/README.md",
         "ext": ".md",
-        "mtime": 1589898314944.7874
+        "mtime": 1591297908916.415
       },
       {
         "file": "libs/ui/shared/jest.config.js",
         "ext": ".js",
-        "mtime": 1589898314946.3188
+        "mtime": 1591297908916.5876
       },
       {
         "file": "libs/ui/shared/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589898419991.9011
+        "mtime": 1591297908916.8599
       },
       {
         "file": "libs/ui/shared/src/lib/fds.module.ts",
         "ext": ".ts",
-        "mtime": 1589902081656.3652
+        "mtime": 1591297908917.0916
       },
       {
         "file": "libs/ui/shared/src/lib/material.module.ts",
         "ext": ".ts",
-        "mtime": 1589898407287.395
+        "mtime": 1591297908917.241
       },
       {
         "file": "libs/ui/shared/src/lib/shared.module.ts",
         "ext": ".ts",
-        "mtime": 1589898426841.606
+        "mtime": 1591297908917.7046
       },
       {
         "file": "libs/ui/shared/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589898314945.0203
+        "mtime": 1591297908917.8564
       },
       {
         "file": "libs/ui/shared/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589898314945.26
+        "mtime": 1591297908918.5479
       },
       {
         "file": "libs/ui/shared/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589898314946.563
+        "mtime": 1591297908918.682
       },
       {
         "file": "libs/ui/shared/tslint.json",
         "ext": ".json",
-        "mtime": 1589898314944.3901
+        "mtime": 1591297908918.8215
       }
     ],
     "ui-auth": [
       {
         "file": "libs/ui/auth/README.md",
         "ext": ".md",
-        "mtime": 1589898620499.4407
+        "mtime": 1591297908902.2493
       },
       {
         "file": "libs/ui/auth/jest.config.js",
         "ext": ".js",
-        "mtime": 1589898620500.633
+        "mtime": 1591297908902.4358
       },
       {
         "file": "libs/ui/auth/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589898708685.46
+        "mtime": 1591297908902.6895
       },
       {
         "file": "libs/ui/auth/src/lib/auth.module.ts",
         "ext": ".ts",
-        "mtime": 1589898639080.8816
+        "mtime": 1591297908902.9412
       },
       {
         "file": "libs/ui/auth/src/lib/auth.service.ts",
         "ext": ".ts",
-        "mtime": 1589898730096.6328
+        "mtime": 1591297908903.6575
       },
       {
         "file": "libs/ui/auth/src/lib/authenticated-guard.service.ts",
         "ext": ".ts",
-        "mtime": 1589898639081.3086
+        "mtime": 1591297908903.8413
       },
       {
         "file": "libs/ui/auth/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589898620499.679
+        "mtime": 1591297908904.028
       },
       {
         "file": "libs/ui/auth/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589898620499.8845
+        "mtime": 1591297908904.2207
       },
       {
         "file": "libs/ui/auth/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589898620500.8503
+        "mtime": 1591297908904.3755
       },
       {
         "file": "libs/ui/auth/tslint.json",
         "ext": ".json",
-        "mtime": 1589898620499.1807
+        "mtime": 1591297908904.532
       }
     ],
     "ui-core": [
       {
         "file": "libs/ui/core/README.md",
         "ext": ".md",
-        "mtime": 1589901095379.1746
+        "mtime": 1591297908908.3567
       },
       {
         "file": "libs/ui/core/jest.config.js",
         "ext": ".js",
-        "mtime": 1589901095380.5115
+        "mtime": 1591297908908.526
       },
       {
         "file": "libs/ui/core/src/index.ts",
         "ext": ".ts",
-        "mtime": 1589901377090.9143
+        "mtime": 1591297908908.9797
       },
       {
         "file": "libs/ui/core/src/lib/constants.ts",
         "ext": ".ts",
-        "mtime": 1589901292882.765
+        "mtime": 1591297908909.541
       },
       {
         "file": "libs/ui/core/src/lib/core-module.ts",
         "ext": ".ts",
-        "mtime": 1589901367324.6882
+        "mtime": 1591297908909.6921
       },
       {
         "file": "libs/ui/core/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589901095379.4343
+        "mtime": 1591297908910.0857
       },
       {
         "file": "libs/ui/core/tsconfig.lib.json",
         "ext": ".json",
-        "mtime": 1589901095379.6816
+        "mtime": 1591297908910.2966
       },
       {
         "file": "libs/ui/core/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589901095380.7434
+        "mtime": 1591297908910.4407
       },
       {
         "file": "libs/ui/core/tslint.json",
         "ext": ".json",
-        "mtime": 1589901095378.9048
+        "mtime": 1591297908910.5823
       }
     ],
     "client": [
       {
         "file": "apps/client/browserslist",
         "ext": "",
-        "mtime": 1589890319844.6218
+        "mtime": 1591297908880.449
       },
       {
         "file": "apps/client/jest.config.js",
         "ext": ".js",
-        "mtime": 1589890319847.6917
+        "mtime": 1591297908880.6157
       },
       {
         "file": "apps/client/ngsw-config.json",
         "ext": ".json",
-        "mtime": 1591276710770.4072
+        "mtime": 1591297908880.7961
       },
       {
         "file": "apps/client/src/app/app-init/app-init.component.ts",
         "ext": ".ts",
-        "mtime": 1589899040362.0972
+        "mtime": 1591297908882.1074
       },
       {
         "file": "apps/client/src/app/app-init/app-init.module.ts",
         "ext": ".ts",
-        "mtime": 1591276710775.86
+        "mtime": 1591297908882.3289
       },
       {
         "file": "apps/client/src/app/app-init/app-init.routing.module.ts",
         "ext": ".ts",
-        "mtime": 1589898753691.038
+        "mtime": 1591297908882.5154
       },
       {
         "file": "apps/client/src/app/app-routing.module.ts",
         "ext": ".ts",
-        "mtime": 1589898156679.7053
+        "mtime": 1591297908882.7078
       },
       {
         "file": "apps/client/src/app/app.component.html",
         "ext": ".html",
-        "mtime": 1589979266404.1663
+        "mtime": 1591297908882.9456
       },
       {
         "file": "apps/client/src/app/app.component.scss",
         "ext": ".scss",
-        "mtime": 1589898156680.3162
+        "mtime": 1591297908883.1238
       },
       {
         "file": "apps/client/src/app/app.component.ts",
         "ext": ".ts",
-        "mtime": 1589979262690.041
+        "mtime": 1591297908883.6226
       },
       {
         "file": "apps/client/src/app/app.module.ts",
         "ext": ".ts",
-        "mtime": 1589901493393.196
+        "mtime": 1591297908883.8079
       },
       {
         "file": "apps/client/src/app/constants.ts",
         "ext": ".ts",
-        "mtime": 1589902301651.8792
+        "mtime": 1591297908884.2498
       },
       {
         "file": "apps/client/src/app/graphql.module.ts",
         "ext": ".ts",
-        "mtime": 1589898156679.953
+        "mtime": 1591297908884.4526
       },
       {
         "file": "apps/client/src/assets/.gitkeep",
         "ext": "",
-        "mtime": 1589890319845.9514
+        "mtime": 1591297908885.0767
+      },
+      {
+        "file": "apps/client/src/assets/build-illustration.png",
+        "ext": ".png",
+        "mtime": 1591297908886.589
       },
       {
         "file": "apps/client/src/assets/icons/icon-128x128.png",
         "ext": ".png",
-        "mtime": 1591276710771.1084
+        "mtime": 1591297908887.2249
       },
       {
         "file": "apps/client/src/assets/icons/icon-144x144.png",
         "ext": ".png",
-        "mtime": 1591276710771.3252
+        "mtime": 1591297908887.4094
       },
       {
         "file": "apps/client/src/assets/icons/icon-152x152.png",
         "ext": ".png",
-        "mtime": 1591276710771.532
+        "mtime": 1591297908887.5876
       },
       {
         "file": "apps/client/src/assets/icons/icon-192x192.png",
         "ext": ".png",
-        "mtime": 1591276710771.7212
+        "mtime": 1591297908887.7856
       },
       {
         "file": "apps/client/src/assets/icons/icon-384x384.png",
         "ext": ".png",
-        "mtime": 1591276710771.9097
+        "mtime": 1591297908887.983
       },
       {
         "file": "apps/client/src/assets/icons/icon-512x512.png",
         "ext": ".png",
-        "mtime": 1591276710772.1008
+        "mtime": 1591297908888.294
       },
       {
         "file": "apps/client/src/assets/icons/icon-72x72.png",
         "ext": ".png",
-        "mtime": 1591276710772.347
+        "mtime": 1591297908888.4746
       },
       {
         "file": "apps/client/src/assets/icons/icon-96x96.png",
         "ext": ".png",
-        "mtime": 1591276710772.557
+        "mtime": 1591297908888.883
+      },
+      {
+        "file": "apps/client/src/assets/main-logo.png",
+        "ext": ".png",
+        "mtime": 1591297908889.4475
       },
       {
         "file": "apps/client/src/assets/wave-bottom.svg",
         "ext": ".svg",
-        "mtime": 1589905714228.8345
+        "mtime": 1591297908889.6514
       },
       {
         "file": "apps/client/src/environments/environment.prod.ts",
         "ext": ".ts",
-        "mtime": 1589890319846.2935
+        "mtime": 1591297908889.9714
       },
       {
         "file": "apps/client/src/environments/environment.ts",
         "ext": ".ts",
-        "mtime": 1589890319846.5015
+        "mtime": 1591297908890.633
       },
       {
         "file": "apps/client/src/favicon.ico",
         "ext": ".ico",
-        "mtime": 1589903377487.2698
+        "mtime": 1591297908891.2732
       },
       {
         "file": "apps/client/src/index.html",
         "ext": ".html",
-        "mtime": 1591276710776.9036
+        "mtime": 1591297908891.4917
       },
       {
         "file": "apps/client/src/main.ts",
         "ext": ".ts",
-        "mtime": 1589900448805.3613
+        "mtime": 1591297908891.6777
       },
       {
         "file": "apps/client/src/manifest.webmanifest",
         "ext": ".webmanifest",
-        "mtime": 1591276771545.5776
+        "mtime": 1591297908891.8972
       },
       {
         "file": "apps/client/src/polyfills.ts",
         "ext": ".ts",
-        "mtime": 1589890319845.5662
+        "mtime": 1591297908892.091
       },
       {
         "file": "apps/client/src/styles.scss",
         "ext": ".scss",
-        "mtime": 1589903287871.0562
+        "mtime": 1591297908892.799
       },
       {
         "file": "apps/client/src/test-setup.ts",
         "ext": ".ts",
-        "mtime": 1589890319848.041
+        "mtime": 1591297908892.9744
       },
       {
         "file": "apps/client/tsconfig.app.json",
         "ext": ".json",
-        "mtime": 1589890319844.8076
+        "mtime": 1591297908893.155
       },
       {
         "file": "apps/client/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589890319844.124
+        "mtime": 1591297908893.6675
       },
       {
         "file": "apps/client/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589890319847.8684
+        "mtime": 1591297908893.8555
       },
       {
         "file": "apps/client/tslint.json",
         "ext": ".json",
-        "mtime": 1589890319844.9932
+        "mtime": 1591297908894.0247
       }
     ],
     "server": [
       {
         "file": "apps/server/jest.config.js",
         "ext": ".js",
-        "mtime": 1589890526782.5742
+        "mtime": 1591297908894.2952
       },
       {
         "file": "apps/server/src/app.controller.spec.ts",
         "ext": ".ts",
-        "mtime": 1589894136962.2756
+        "mtime": 1591297908894.6157
       },
       {
         "file": "apps/server/src/app.controller.ts",
         "ext": ".ts",
-        "mtime": 1589894136962.3506
+        "mtime": 1591297908894.8413
       },
       {
         "file": "apps/server/src/app.module.ts",
         "ext": ".ts",
-        "mtime": 1590394789256.7053
+        "mtime": 1591297908895.014
       },
       {
         "file": "apps/server/src/app.service.ts",
         "ext": ".ts",
-        "mtime": 1589894136962.445
+        "mtime": 1591297908895.1904
       },
       {
         "file": "apps/server/src/configs/graphql-config.service.ts",
         "ext": ".ts",
-        "mtime": 1589894137037.6052
+        "mtime": 1591338525941.2917
       },
       {
         "file": "apps/server/src/configs/oidc-config.service.ts",
         "ext": ".ts",
-        "mtime": 1591201465342.1526
+        "mtime": 1591297908895.6716
       },
       {
         "file": "apps/server/src/configs/proxy-config.service.ts",
         "ext": ".ts",
-        "mtime": 1589894137043.8098
+        "mtime": 1591297908895.8757
       },
       {
         "file": "apps/server/src/configs/serve-startic-config.service.ts",
         "ext": ".ts",
-        "mtime": 1589894312781.057
+        "mtime": 1591297908896.1008
       },
       {
         "file": "apps/server/src/main.ts",
         "ext": ".ts",
-        "mtime": 1590394775376.1875
+        "mtime": 1591297908896.2834
       },
       {
         "file": "apps/server/src/setup-static.ts",
         "ext": ".ts",
-        "mtime": 1589894136962.552
+        "mtime": 1591297908896.4707
       },
       {
         "file": "apps/server/tsconfig.app.json",
         "ext": ".json",
-        "mtime": 1589890526780.9072
+        "mtime": 1591297908896.6418
       },
       {
         "file": "apps/server/tsconfig.json",
         "ext": ".json",
-        "mtime": 1589890526781.139
+        "mtime": 1591297908896.809
       },
       {
         "file": "apps/server/tsconfig.spec.json",
         "ext": ".json",
-        "mtime": 1589890526782.766
+        "mtime": 1591297908896.9963
       },
       {
         "file": "apps/server/tslint.json",
         "ext": ".json",
-        "mtime": 1589890526780.6401
+        "mtime": 1591297908897.2302
       }
     ]
   }

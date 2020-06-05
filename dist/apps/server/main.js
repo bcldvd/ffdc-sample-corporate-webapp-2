@@ -81,165 +81,26 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
 
-module.exports = require("tslib");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("@nestjs/common");
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = require("@nestjs/config");
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-module.exports = require("@ffdc/nestjs-oidc");
-
-/***/ }),
-/* 4 */
+/***/ "./apps/server/src/app.controller.ts":
+/*!*******************************************!*\
+  !*** ./apps/server/src/app.controller.ts ***!
+  \*******************************************/
+/*! exports provided: AppController */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppController", function() { return AppController; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
 /* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-
-
-let AppService = class AppService {
-    getHello() {
-        return 'Hello World!';
-    }
-};
-AppService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
-], AppService);
-
-
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports) {
-
-module.exports = require("@ffdc/api_corporate-accounts");
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("@nestjs/core");
-
-/***/ }),
-/* 7 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
-/* harmony import */ var _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3);
-/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9);
-/* harmony import */ var _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _app_controller__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(10);
-/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4);
-/* harmony import */ var _configs_proxy_config_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(11);
-/* harmony import */ var _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(12);
-/* harmony import */ var _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(5);
-/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _configs_graphql_config_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(13);
-/* harmony import */ var _configs_oidc_config_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(14);
-/* harmony import */ var _configs_serve_startic_config_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(15);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let AppModule = class AppModule {
-};
-AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Module"])({
-        imports: [
-            _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"].forRoot({
-                isGlobal: true,
-                ignoreEnvFile: "production" === 'production',
-            }),
-            _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__["OidcModule"].forRootAsync({
-                imports: [_nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"]],
-                useClass: _configs_oidc_config_service__WEBPACK_IMPORTED_MODULE_12__[/* OidcConfigService */ "a"],
-            }),
-            _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__["ServeStaticModule"].forRootAsync({
-                useClass: _configs_serve_startic_config_service__WEBPACK_IMPORTED_MODULE_13__[/* ServiceStaticConfigService */ "a"],
-            }),
-            _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__["ProxyModule"].forRootAsync({
-                useClass: _configs_proxy_config_service__WEBPACK_IMPORTED_MODULE_8__[/* ProxyConfigService */ "a"],
-                imports: [_nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"]],
-            }),
-            _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__["CorporateAccountsModule"],
-            _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__["GraphQLModule"].forRootAsync({
-                useClass: _configs_graphql_config_service__WEBPACK_IMPORTED_MODULE_11__[/* GqlConfigService */ "a"],
-            }),
-        ],
-        controllers: [_app_controller__WEBPACK_IMPORTED_MODULE_6__[/* AppController */ "a"]],
-        providers: [_app_service__WEBPACK_IMPORTED_MODULE_7__[/* AppService */ "a"]],
-    })
-], AppModule);
-
-
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("@nestjs/serve-static");
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-module.exports = require("@ffdc/nestjs-proxy");
-
-/***/ }),
-/* 10 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppController; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.service */ "./apps/server/src/app.service.ts");
 var _a;
 
 
@@ -261,22 +122,245 @@ Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 ], AppController.prototype, "user", null);
 AppController = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Controller"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [typeof (_a = typeof _app_service__WEBPACK_IMPORTED_MODULE_2__[/* AppService */ "a"] !== "undefined" && _app_service__WEBPACK_IMPORTED_MODULE_2__[/* AppService */ "a"]) === "function" ? _a : Object])
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [typeof (_a = typeof _app_service__WEBPACK_IMPORTED_MODULE_2__["AppService"] !== "undefined" && _app_service__WEBPACK_IMPORTED_MODULE_2__["AppService"]) === "function" ? _a : Object])
 ], AppController);
 
 
 
 /***/ }),
-/* 11 */
+
+/***/ "./apps/server/src/app.module.ts":
+/*!***************************************!*\
+  !*** ./apps/server/src/app.module.ts ***!
+  \***************************************/
+/*! exports provided: AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProxyConfigService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nestjs/config */ "@nestjs/config");
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @nestjs/serve-static */ "@nestjs/serve-static");
+/* harmony import */ var _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ffdc/nestjs-oidc */ "@ffdc/nestjs-oidc");
+/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ffdc/nestjs-proxy */ "@ffdc/nestjs-proxy");
+/* harmony import */ var _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _app_controller__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.controller */ "./apps/server/src/app.controller.ts");
+/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.service */ "./apps/server/src/app.service.ts");
+/* harmony import */ var _configs_proxy_config_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./configs/proxy-config.service */ "./apps/server/src/configs/proxy-config.service.ts");
+/* harmony import */ var _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @nestjs/graphql */ "@nestjs/graphql");
+/* harmony import */ var _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ffdc/api_corporate-accounts */ "@ffdc/api_corporate-accounts");
+/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _configs_graphql_config_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./configs/graphql-config.service */ "./apps/server/src/configs/graphql-config.service.ts");
+/* harmony import */ var _configs_oidc_config_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./configs/oidc-config.service */ "./apps/server/src/configs/oidc-config.service.ts");
+/* harmony import */ var _configs_serve_startic_config_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./configs/serve-startic-config.service */ "./apps/server/src/configs/serve-startic-config.service.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let AppModule = class AppModule {
+};
+AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Module"])({
+        imports: [
+            _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"].forRoot({
+                isGlobal: true,
+                ignoreEnvFile: "development" === 'production',
+            }),
+            _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_4__["OidcModule"].forRootAsync({
+                imports: [_nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"]],
+                useClass: _configs_oidc_config_service__WEBPACK_IMPORTED_MODULE_12__["OidcConfigService"],
+            }),
+            _nestjs_serve_static__WEBPACK_IMPORTED_MODULE_3__["ServeStaticModule"].forRootAsync({
+                useClass: _configs_serve_startic_config_service__WEBPACK_IMPORTED_MODULE_13__["ServiceStaticConfigService"],
+            }),
+            _ffdc_nestjs_proxy__WEBPACK_IMPORTED_MODULE_5__["ProxyModule"].forRootAsync({
+                useClass: _configs_proxy_config_service__WEBPACK_IMPORTED_MODULE_8__["ProxyConfigService"],
+                imports: [_nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigModule"]],
+            }),
+            _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_10__["CorporateAccountsModule"],
+            _nestjs_graphql__WEBPACK_IMPORTED_MODULE_9__["GraphQLModule"].forRootAsync({
+                useClass: _configs_graphql_config_service__WEBPACK_IMPORTED_MODULE_11__["GqlConfigService"],
+            }),
+        ],
+        controllers: [_app_controller__WEBPACK_IMPORTED_MODULE_6__["AppController"]],
+        providers: [_app_service__WEBPACK_IMPORTED_MODULE_7__["AppService"]],
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./apps/server/src/app.service.ts":
+/*!****************************************!*\
+  !*** ./apps/server/src/app.service.ts ***!
+  \****************************************/
+/*! exports provided: AppService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppService", function() { return AppService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
+
+
+let AppService = class AppService {
+    getHello() {
+        return 'Hello World!';
+    }
+};
+AppService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+], AppService);
+
+
+
+/***/ }),
+
+/***/ "./apps/server/src/configs/graphql-config.service.ts":
+/*!***********************************************************!*\
+  !*** ./apps/server/src/configs/graphql-config.service.ts ***!
+  \***********************************************************/
+/*! exports provided: GqlConfigService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GqlConfigService", function() { return GqlConfigService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ffdc/api_corporate-accounts */ "@ffdc/api_corporate-accounts");
+/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! path */ "path");
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+let GqlConfigService = class GqlConfigService {
+    createGqlOptions() {
+        const playgroundDevOptions = {
+            settings: {
+                'request.credentials': 'include',
+            },
+        };
+        return {
+            typePaths: [
+                Object(path__WEBPACK_IMPORTED_MODULE_3__["join"])(__dirname, '../../../node_modules/@ffdc/api_corporate-accounts/**/*.graphql'),
+            ],
+            include: [_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__["CorporateAccountsModule"]],
+            playground:  false ? undefined : playgroundDevOptions,
+        };
+    }
+};
+GqlConfigService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+], GqlConfigService);
+
+
+
+/***/ }),
+
+/***/ "./apps/server/src/configs/oidc-config.service.ts":
+/*!********************************************************!*\
+  !*** ./apps/server/src/configs/oidc-config.service.ts ***!
+  \********************************************************/
+/*! exports provided: OidcConfigService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OidcConfigService", function() { return OidcConfigService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nestjs/config */ "@nestjs/config");
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_2__);
+var OidcConfigService_1, _a;
+
+
+
+let OidcConfigService = OidcConfigService_1 = class OidcConfigService {
+    constructor(configService) {
+        this.configService = configService;
+        this.logger = new _nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Logger"](OidcConfigService_1.name);
+    }
+    createModuleConfig() {
+        const issuer = this.configService.get('OIDC_ISSUER');
+        const client_id = this.configService.get('OIDC_CLIENT_ID');
+        const origin = this.configService.get('OIDC_ORIGIN', process.env.VERCEL_URL || this.getHerokuHost(process.env.HEROKU_APP_NAME));
+        this.logger.log(`
+issuer     : ${issuer}
+client_id  : ${client_id}
+origin     : ${origin}`);
+        return {
+            issuer,
+            clientMetadata: {
+                client_id,
+                client_secret: this.configService.get('OIDC_CLIENT_SECRET'),
+            },
+            authParams: {
+                scopes: this.configService.get('OIDC_SCOPES'),
+                resource: this.configService.get('OIDC_RESOURCE'),
+            },
+            origin,
+            defaultHttpOptions: {
+                timeout: 20000,
+            },
+        };
+    }
+    getHerokuHost(appName) {
+        return `https://${appName}.herokuapp.com`;
+    }
+};
+OidcConfigService = OidcConfigService_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [typeof (_a = typeof _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigService"] !== "undefined" && _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigService"]) === "function" ? _a : Object])
+], OidcConfigService);
+
+
+
+/***/ }),
+
+/***/ "./apps/server/src/configs/proxy-config.service.ts":
+/*!*********************************************************!*\
+  !*** ./apps/server/src/configs/proxy-config.service.ts ***!
+  \*********************************************************/
+/*! exports provided: ProxyConfigService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProxyConfigService", function() { return ProxyConfigService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/config */ "@nestjs/config");
 /* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
 /* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_2__);
 var _a;
 
@@ -307,112 +391,24 @@ ProxyConfigService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 
 /***/ }),
-/* 12 */
-/***/ (function(module, exports) {
 
-module.exports = require("@nestjs/graphql");
-
-/***/ }),
-/* 13 */
+/***/ "./apps/server/src/configs/serve-startic-config.service.ts":
+/*!*****************************************************************!*\
+  !*** ./apps/server/src/configs/serve-startic-config.service.ts ***!
+  \*****************************************************************/
+/*! exports provided: ServiceStaticConfigService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GqlConfigService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServiceStaticConfigService", function() { return ServiceStaticConfigService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
+/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/common */ "@nestjs/common");
 /* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
-/* harmony import */ var _ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-let GqlConfigService = class GqlConfigService {
-    createGqlOptions() {
-        const playgroundDevOptions = {
-            settings: {
-                'request.credentials': 'include',
-            },
-        };
-        return {
-            typePaths: ['./node_modules/@ffdc/api_corporate-accounts/**/*.graphql'],
-            include: [_ffdc_api_corporate_accounts__WEBPACK_IMPORTED_MODULE_2__["CorporateAccountsModule"]],
-            playground:  true ? false : undefined,
-        };
-    }
-};
-GqlConfigService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
-], GqlConfigService);
-
-
-
-/***/ }),
-/* 14 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OidcConfigService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nestjs/config */ "@nestjs/config");
 /* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_2__);
-var OidcConfigService_1, _a;
-
-
-
-let OidcConfigService = OidcConfigService_1 = class OidcConfigService {
-    constructor(configService) {
-        this.configService = configService;
-        this.logger = new _nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Logger"](OidcConfigService_1.name);
-    }
-    createModuleConfig() {
-        const issuer = this.configService.get('OIDC_ISSUER');
-        const client_id = this.configService.get('OIDC_CLIENT_ID');
-        const origin = this.configService.get('OIDC_ORIGIN', process.env.VERCEL_URL || this.getHerokuHost(process.env.HEROKU_APP_NAME));
-        this.logger.log(`
-issuer     : ${issuer}
-client_id  : ${client_id}
-origin     : ${origin}`);
-        return {
-            issuer,
-            clientMetadata: {
-                client_id,
-                client_secret: this.configService.get('OIDC_CLIENT_SECRET'),
-            },
-            authParams: {
-                scopes: this.configService.get('OIDC_SCOPES'),
-                resource: this.configService.get('OIDC_RESOURCE'),
-            },
-            origin,
-        };
-    }
-    getHerokuHost(appName) {
-        return `https://${appName}.herokuapp.com`;
-    }
-};
-OidcConfigService = OidcConfigService_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-    Object(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [typeof (_a = typeof _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigService"] !== "undefined" && _nestjs_config__WEBPACK_IMPORTED_MODULE_2__["ConfigService"]) === "function" ? _a : Object])
-], OidcConfigService);
-
-
-
-/***/ }),
-/* 15 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServiceStaticConfigService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* harmony import */ var _nestjs_common__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_common__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! path */ "path");
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_3__);
 var _a;
 
@@ -440,40 +436,26 @@ ServiceStaticConfigService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decora
 
 
 /***/ }),
-/* 16 */
-/***/ (function(module, exports) {
 
-module.exports = require("path");
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports) {
-
-module.exports = require("compression");
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(19);
-
-
-/***/ }),
-/* 19 */
+/***/ "./apps/server/src/main.ts":
+/*!*********************************!*\
+  !*** ./apps/server/src/main.ts ***!
+  \*********************************/
+/*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "tslib");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(tslib__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nestjs_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _nestjs_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @nestjs/core */ "@nestjs/core");
 /* harmony import */ var _nestjs_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nestjs_core__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
-/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
+/* harmony import */ var _app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.module */ "./apps/server/src/app.module.ts");
+/* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ffdc/nestjs-oidc */ "@ffdc/nestjs-oidc");
 /* harmony import */ var _ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2);
+/* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @nestjs/config */ "@nestjs/config");
 /* harmony import */ var _nestjs_config__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nestjs_config__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var compression__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(17);
+/* harmony import */ var compression__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! compression */ "compression");
 /* harmony import */ var compression__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(compression__WEBPACK_IMPORTED_MODULE_5__);
 
 
@@ -483,7 +465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function bootstrap() {
     return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-        const app = yield _nestjs_core__WEBPACK_IMPORTED_MODULE_1__["NestFactory"].create(_app_module__WEBPACK_IMPORTED_MODULE_2__[/* AppModule */ "a"]);
+        const app = yield _nestjs_core__WEBPACK_IMPORTED_MODULE_1__["NestFactory"].create(_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"]);
         const issuer = app.get(_nestjs_config__WEBPACK_IMPORTED_MODULE_4__["ConfigService"]).get('OIDC_ISSUER');
         const tokenStore = yield Object(_ffdc_nestjs_oidc__WEBPACK_IMPORTED_MODULE_3__["getTokenStore"])(issuer);
         const reflector = app.get(_nestjs_core__WEBPACK_IMPORTED_MODULE_1__["Reflector"]);
@@ -498,6 +480,140 @@ function bootstrap() {
 bootstrap();
 
 
+/***/ }),
+
+/***/ 0:
+/*!***************************************!*\
+  !*** multi ./apps/server/src/main.ts ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/thnguye1/code/ffdc-sample-corporate-webapp-2/apps/server/src/main.ts */"./apps/server/src/main.ts");
+
+
+/***/ }),
+
+/***/ "@ffdc/api_corporate-accounts":
+/*!***********************************************!*\
+  !*** external "@ffdc/api_corporate-accounts" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@ffdc/api_corporate-accounts");
+
+/***/ }),
+
+/***/ "@ffdc/nestjs-oidc":
+/*!************************************!*\
+  !*** external "@ffdc/nestjs-oidc" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@ffdc/nestjs-oidc");
+
+/***/ }),
+
+/***/ "@ffdc/nestjs-proxy":
+/*!*************************************!*\
+  !*** external "@ffdc/nestjs-proxy" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@ffdc/nestjs-proxy");
+
+/***/ }),
+
+/***/ "@nestjs/common":
+/*!*********************************!*\
+  !*** external "@nestjs/common" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@nestjs/common");
+
+/***/ }),
+
+/***/ "@nestjs/config":
+/*!*********************************!*\
+  !*** external "@nestjs/config" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@nestjs/config");
+
+/***/ }),
+
+/***/ "@nestjs/core":
+/*!*******************************!*\
+  !*** external "@nestjs/core" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@nestjs/core");
+
+/***/ }),
+
+/***/ "@nestjs/graphql":
+/*!**********************************!*\
+  !*** external "@nestjs/graphql" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@nestjs/graphql");
+
+/***/ }),
+
+/***/ "@nestjs/serve-static":
+/*!***************************************!*\
+  !*** external "@nestjs/serve-static" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@nestjs/serve-static");
+
+/***/ }),
+
+/***/ "compression":
+/*!******************************!*\
+  !*** external "compression" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("compression");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "tslib":
+/*!************************!*\
+  !*** external "tslib" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("tslib");
+
 /***/ })
-/******/ ])));
+
+/******/ })));
 //# sourceMappingURL=main.js.map
